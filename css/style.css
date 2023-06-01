@@ -331,6 +331,9 @@ body {
   text-align: -webkit-center;
   width: 100%;
 }
+#services .section-header{
+  margin-top: 5%;
+}
 
 .wow {
   margin-bottom: 5%;
@@ -1525,6 +1528,7 @@ border-radius: 15px;
 
 .header-row {
   padding-left: 4%;
+  padding-top: inherit;
 }
 
 
@@ -1537,7 +1541,7 @@ border-radius: 15px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-top: 5.4rem;
+  /* margin-top: 5.4rem; */
   color: #503E1D;
 }
 
@@ -1715,3 +1719,7 @@ border-radius: 3px;
   height: 80vh; /* Set the desired height for the hero-header section */
   /* margin-top: 56px; Adjust this value to ensure the hero-header appears below the navbar */
 }
+.bg-custom  img{
+  width: 60px;
+}
+
