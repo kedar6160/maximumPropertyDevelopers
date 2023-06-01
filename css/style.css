@@ -275,8 +275,8 @@ body {
   line-height: 14px;
   color: #2A355B;
   padding: 6% 0;
-  text-align: inherit;
-
+  display: inline-block;
+  margin-right: 10px
 }
 
 .botm-row {
@@ -286,11 +286,11 @@ body {
 
 }
 
-.wow {
+/* .wow {
   margin-bottom: 6px;
   justify-content: space-between;
 
-}
+} */
 
 .botm-btn {
   font-weight: 500;
@@ -317,10 +317,6 @@ body {
   font-size: 12px;
   padding-bottom: 5%;
   text-align: center;
-}
-
-.card-right-data {
-  font-weight: 500;
 }
 
 @media (max-width: 767px) {
@@ -351,9 +347,6 @@ body {
   margin-bottom: 5px;
 }
 
-.card-right-data {
-  font-weight: 500;
-}
 
 @media (max-width: 767px) {
   .col .row {
@@ -1330,10 +1323,7 @@ border-radius: 15px;
   padding-left: 4%;
 }
 
-.hero-header h3,
-p {
-  text-align: center;
-}
+
 
 #gold-font {
   background: linear-gradient(270deg,
