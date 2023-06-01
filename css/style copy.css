@@ -900,8 +900,8 @@ th {
 
 #team .member {
   text-align: center;
-  margin: 3rem 1rem;
-  width: 40%;
+  /* margin: 3rem 1rem; */
+  width: 100%;
   /* overflow: hidden; */
 }
 
