@@ -1481,7 +1481,7 @@ th {
 
 .hero-header {
   padding: 0;
-  background: url(../img/Frame2.png);
+  background: url(../img/p2bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1662,4 +1662,37 @@ border-radius: 3px;
   font-size: 20px;
 line-height: 28px;
 text-align: center;
+}
+.bg-custom {
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bg-custom.scroll {
+  background-color: rgba(13, 4, 72, 0.365);
+  backdrop-filter: blur(5px);
+}
+
+.container-fluid {
+  width: 100%;
+  
+  padding-right: 1rem;
+  padding-left: 1rem;
+  position: fixed;
+  z-index: 9999; /* Ensure the navbar appears on top of other elements */
+  background-color: rgba(255, 255, 255, 0); /* Set the background color to transparent */
+}
+.ht{
+  min-height: 65px;
+}
+.bg-custom {
+  background-color: rgba(255, 255, 255, 0); /* Set the background color to transparent */
+}
+
+.hero-header {
+  padding: 0;
+  background: url(../img/p2bg.png) center center no-repeat;
+  background-size: cover;
+  height: 80vh; /* Set the desired height for the hero-header section */
+  /* margin-top: 56px; Adjust this value to ensure the hero-header appears below the navbar */
 }
